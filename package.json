@@ -1,0 +1,29 @@
+{
+  "name": "weighted-rng",
+  "version": "1.0.0",
+  "description": "A weighted RNG for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sven65/Weighted-RNG.git"
+  },
+  "files":  [
+    "README.md"
+  ],
+  "keywords": [
+    "rng",
+    "weighted",
+    "biased",
+    "random",
+    "number"
+  ],
+  "author": "Mackan",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Sven65/Weighted-RNG/issues"
+  },
+  "homepage": "https://github.com/Sven65/Weighted-RNG#readme"
+}
