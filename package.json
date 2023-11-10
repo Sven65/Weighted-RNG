@@ -1,16 +1,19 @@
 {
   "name": "weighted-rng",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A weighted RNG for nodejs",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sven65/Weighted-RNG.git"
   },
-  "files":  [
+  "files": [
     "README.md"
   ],
   "keywords": [
@@ -25,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/Sven65/Weighted-RNG/issues"
   },
-  "homepage": "https://github.com/Sven65/Weighted-RNG#readme"
+  "homepage": "https://github.com/Sven65/Weighted-RNG#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
