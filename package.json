@@ -1,6 +1,6 @@
 {
   "name": "weighted-rng",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "A weighted RNG for nodejs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,9 @@
     "url": "git+https://github.com/Sven65/Weighted-RNG.git"
   },
   "files": [
-    "README.md"
+    "README.md",
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
   "keywords": [
     "rng",

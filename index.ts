@@ -1,9 +1,10 @@
-export type WeightObject<T> = {
-	[key: string]: number;
-};
-
 const rint = (min: number, max: number): number => Math.random() * (max - min) + min;
 
+/**
+ * Selects a random item from an object with weights
+ * @param data The object to choose from, mapped by key: weight
+ * @returns A selected item
+ */
 const selectRandomItem = <T extends Record<string, number>>(data: T): keyof T => {
 	const items: (keyof T)[] = [];
 	const weight: number[] = [];
